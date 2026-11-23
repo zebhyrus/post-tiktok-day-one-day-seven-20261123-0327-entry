@@ -23,6 +23,12 @@ Then replace the placeholder url in VIDEO.json with the video's full address (`h
 mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
+## Audio credits (Openverse, all CC0)
+- Music: "8 bit game music 001 simple mix 05 short loop 120 bpm" by josefpres (CC0), via Openverse / Freesound
+- Coin SFX: "Natural Metal Coin Sound 3" by The-Sacha-Rush (CC0), via Openverse / Freesound
+- Jump SFX: "Platform Jump" by Jofae (CC0), via Openverse / Freesound
+The music loop (16 s) is trimmed to the 11 s video with a fade-out; coin and jump clips are placed over the game moments. All three are CC0, no attribution required.
+
 ## Files
 - `main.ts` — entrypoint, copies VIDEO.json to /output
 - `VIDEO.json` — the TikTok video address (placeholder until posted)
